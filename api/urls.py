@@ -1,8 +1,8 @@
-from django.urls import path
+from django.conf.urls import url
 from api.views import Reverse, WordCounts
 
 
 urlpatterns = [
-    path('string-operations/reverses/$', Reverse.as_view(), name='reverse'),
-    path('string-operations/word-counts/$', WordCounts.as_view(), name='word_counts'),
+    url('string-operations/reverses/$', Reverse.as_view(), name='reverse'),
+    url('string-operations/word-counts/$', WordCounts.as_view(), name='word_counts'),
 ]

@@ -43,7 +43,6 @@ INSTALLED_APPS = [
 
     # 3-rd apps
     'rest_framework',
-    'rest_framework_docs',
 ]
 
 MIDDLEWARE = [
@@ -146,10 +145,4 @@ REST_FRAMEWORK = {
     'DEFAULT_PARSER_CLASSES': (
         'rest_framework.parsers.JSONParser',
     )
-}
-
-# Rest docs
-REST_FRAMEWORK_DOCS = {
-    'HIDE_DOCS': False
-    # Default: False
 }
