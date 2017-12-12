@@ -45,7 +45,7 @@ class WordCounts(APIView):
         if serializer.is_valid():
             clear_data = serializer.validated_data
 
-            # String reverses and return result
+            # Word counts and return result
             count = word_counts(clear_data.get('phrase'))
             result = {'result': count}
 

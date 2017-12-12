@@ -18,19 +18,6 @@ def word_counts(phrase):
     return len(phrase.split(' '))
 
 
-def time_seconds(self, obj, field_name, format='%d %b %Y %H:%M:%S'):
-    """
-    Take object, field name with date field and strftime format.
-    By default format "%d %b %Y %H:%M:%S".
-    Return date in that format.
-    """
-    return obj.date.strftime("%d-%m-%Y")
-
-time_seconds.admin_order_field = 'date'
-time_seconds.short_description = 'Precise Time'
-
-
-
 # if __name__ == '__main__':
 #     reverse_string("I love hamburgers")
 #     words_count("I love hamburgers")
