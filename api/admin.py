@@ -6,7 +6,7 @@ from api.models import Statistics
 class StatisticsAdmin(admin.ModelAdmin):
     def date_format(self, obj):
         """
-        Change data format to '%d-%m-%Y'.
+        Changes data format to '%d-%m-%Y'.
         """
         return obj.date.strftime("%d-%m-%Y")
 

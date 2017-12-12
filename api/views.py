@@ -17,7 +17,7 @@ class Reverse(APIView):
     def post(self, request):
         serializer = self.serializer_class(data=request.data)
 
-        # Check if serializer is valid
+        # Checks if serializer is valid
         if serializer.is_valid():
             clear_data = serializer.validated_data
 
@@ -41,7 +41,7 @@ class WordCounts(APIView):
     def post(self, request):
         serializer = self.serializer_class(data=request.data)
 
-        # Check if serializer is valid
+        # Checks if serializer is valid
         if serializer.is_valid():
             clear_data = serializer.validated_data
 

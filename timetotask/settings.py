@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     # My middlewares
-    'api.middlewares.StatisticTrackingMiddleware'
+    'api.middlewares.StatisticTrackingMiddleware',
 ]
 
 ROOT_URLCONF = 'timetotask.urls'
