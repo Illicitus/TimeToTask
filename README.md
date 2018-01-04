@@ -37,8 +37,6 @@ We should be able to filter the result by endpoint url and by date.
 - Write short README.md file with instructions how to install your app and run tests
 - API should be public accessed (no need of registration and authorization for API access)
 - It would be nice if you use Middlewares when developing statistics tracking system (option 4 from Specifications).
-- Publish you code on Bitbucket in private repository.
-- Give private access for reading to users  olexandr@shalakhin.com and maksym.petruk@wesoftyou.com. If you publish you solution in public access, we won't review it
 
 ## Installation
 Clone repository
